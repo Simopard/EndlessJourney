@@ -1,0 +1,30 @@
+
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+
+[[mods]]
+modId="endless_journey"
+version="${file.jarVersion}"
+displayName="Endless Journey"
+logoFile="logo.png"
+credits="Simopard"
+authors="Simopard"
+
+description='''
+Mod that adds stuff to Minecraft
+'''
+
+[[dependencies.endless_journey]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.endless_journey]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
