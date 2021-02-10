@@ -5,7 +5,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="endless_journey"
-version="${file.jarVersion}"
+version="1.0.0"
 displayName="Endless Journey"
 logoFile="logo.png"
 credits="Simopard"
