@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "iii",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "endless_journey:gold_coin"
+  }
+}

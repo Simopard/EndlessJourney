@@ -5,6 +5,7 @@ import com.simo.EndlessJourney.common.EJItemTiers;
 import com.simo.EndlessJourney.common.items.tools.EJSwordItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Rarity;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,6 +16,7 @@ public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, EndlessJourney.MOD_ID);
 
     //Items
+    public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
     public static final RegistryObject<Item> INGOT = ITEMS.register("ingot", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
     public static final RegistryObject<Item> IRON_KNIFE = ITEMS.register("iron_knife", () -> new EJSwordItem(EJItemTiers.IRON, 0, 0));
     public static final RegistryObject<Item> IRON_COIN = ITEMS.register("iron_coin", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));

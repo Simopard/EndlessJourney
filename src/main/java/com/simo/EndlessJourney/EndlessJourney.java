@@ -42,9 +42,8 @@ public class EndlessJourney {
 
         @Override
         public ItemStack createIcon() {
-            return ItemInit.INGOT.get().getDefaultInstance();
+            return ItemInit.IRON_KNIFE.get().getDefaultInstance();
         }
-
 
     }
 }
