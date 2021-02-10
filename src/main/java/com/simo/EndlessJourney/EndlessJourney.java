@@ -2,6 +2,8 @@ package com.simo.EndlessJourney;
 
 import com.simo.EndlessJourney.init.BlockInit;
 import com.simo.EndlessJourney.init.ItemInit;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -15,6 +17,7 @@ public class EndlessJourney {
 
     public static final String MOD_ID = "endless_journey";
     public static final Logger LOGGER = LogManager.getLogger();
+    public static final ItemGroup JOURNEY_GROUP = new JourneyGroup("journeytab");
 
     public EndlessJourney() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -30,4 +33,18 @@ public class EndlessJourney {
 
     }
 
+    //Item Groups
+    public static class JourneyGroup extends ItemGroup {
+
+        public JourneyGroup(String label) {
+            super(label);
+        }
+
+        @Override
+        public ItemStack createIcon() {
+            return ItemInit.INGOT.get().getDefaultInstance();
+        }
+
+
+    }
 }

@@ -1,4 +1,10 @@
 {
   "item.endless_journey.ingot": "Ingot",
-  "block.endless_journey.ingot_block": "Ingot Block"
+  "item.endless_journey.iron_knife": "Iron Knife",
+  "item.endless_journey.iron_coin": "Iron Coin",
+  "item.endless_journey.gold_coin": "Gold Coin",
+  "item.endless_journey.netherite_coin": "Netherite Coin",
+  "item.endless_journey.iron_broad_sword": "Iron Broad Sword",
+  "block.endless_journey.ingot_block": "Ingot Block",
+  "itemGroup.journeytab": "Journey Tab"
 }
