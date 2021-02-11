@@ -1,0 +1,6 @@
+{
+  "parent": "endless_journey:items/long_bow",
+  "textures": {
+    "layer0": "endless_journey:items/long_bow_pulling_1"
+  }
+}
