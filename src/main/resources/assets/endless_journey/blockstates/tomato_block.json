@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "endless_journey:block/tomato_block_stage0"
+    },
+    "age=1": {
+      "model": "endless_journey:block/tomato_block_stage1"
+    },
+    "age=2": {
+      "model": "endless_journey:block/tomato_block_stage2"
+    },
+    "age=3": {
+      "model": "endless_journey:block/tomato_block_stage3"
+    },
+    "age=4": {
+      "model": "endless_journey:block/tomato_block_stage4"
+    },
+    "age=5": {
+      "model": "endless_journey:block/tomato_block_stage5"
+    },
+    "age=6": {
+      "model": "endless_journey:block/tomato_block_stage6"
+    },
+    "age=7": {
+      "model": "endless_journey:block/tomato_block_stage7"
+    }
+  }
+}

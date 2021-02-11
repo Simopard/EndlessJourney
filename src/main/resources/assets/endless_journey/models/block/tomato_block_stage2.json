@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "endless_journey:blocks/tomato_block_stage2"
+  }
+}

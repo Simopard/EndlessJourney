@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "endless_journey:tomato"
+    }
+  ],
+  "result": {
+    "item": "endless_journey:tomato_seeds",
+    "count": 3
+  }
+}

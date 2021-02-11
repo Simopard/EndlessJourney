@@ -30,7 +30,6 @@ public class EndlessJourney {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
-
     }
 
     //Item Groups
@@ -46,4 +45,5 @@ public class EndlessJourney {
         }
 
     }
+
 }
