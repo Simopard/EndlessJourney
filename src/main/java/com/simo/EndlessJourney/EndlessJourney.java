@@ -18,6 +18,7 @@ public class EndlessJourney {
     public static final String MOD_ID = "endless_journey";
     public static final Logger LOGGER = LogManager.getLogger();
     public static final ItemGroup JOURNEY_GROUP = new JourneyGroup("journeytab");
+    public static final ItemGroup JOURNEY_FOOD = new JourneyFoodGroup("journeyfoodtab");
 
     public EndlessJourney() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -41,9 +42,20 @@ public class EndlessJourney {
 
         @Override
         public ItemStack createIcon() {
-            return ItemInit.IRON_KNIFE.get().getDefaultInstance();
+            return ItemInit.LONG_BOW.get().getDefaultInstance();
         }
 
+    }
+
+    public static class JourneyFoodGroup extends ItemGroup {
+
+        public JourneyFoodGroup(String label) {
+            super(label);
+        }
+        @Override
+        public ItemStack createIcon() {
+            return ItemInit.MEAT_SKEWER.get().getDefaultInstance();
+        }
     }
 
 }

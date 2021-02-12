@@ -5,26 +5,8 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "endless_journey:tomato_block",
-                  "properties": {
-                    "age": "7"
-                  }
-                }
-              ],
-              "name": "endless_journey:tomato"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "endless_journey:tomato_seeds"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "endless_journey:tomato"
         }
       ]
     },
@@ -44,7 +26,7 @@
               }
             }
           ],
-          "name": "endless_journey:tomato_seeds"
+          "name": "endless_journey:tomato"
         }
       ],
       "conditions": [
