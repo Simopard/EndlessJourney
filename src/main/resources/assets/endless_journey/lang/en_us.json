@@ -11,6 +11,8 @@
   "item.endless_journey.cheese": "Cheese",
 
   "block.endless_journey.ingot_block": "Ingot Block",
+  "block.endless_journey.treasure": "Treasure",
+  "block.endless_journey.treasure_block": "Treasure Block",
 
   "itemGroup.journeytab": "Journey Tab",
   "itemGroup.journeyfoodtab": "Journey Food"

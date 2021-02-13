@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " p ",
+    " b ",
+    " s "
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "b": {
+      "item": "minecraft:cooked_beef"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "endless_journey:meat_skewer"
+  }
+}

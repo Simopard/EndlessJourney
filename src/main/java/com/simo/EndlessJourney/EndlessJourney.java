@@ -13,6 +13,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod(EndlessJourney.MOD_ID)
+@Mod.EventBusSubscriber(modid = EndlessJourney.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class EndlessJourney {
 
     public static final String MOD_ID = "endless_journey";

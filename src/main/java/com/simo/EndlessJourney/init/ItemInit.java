@@ -20,6 +20,7 @@ public class ItemInit {
     public static final RegistryObject<Item> IRON_COIN = ITEMS.register("iron_coin", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
     public static final RegistryObject<Item> GOLD_COIN = ITEMS.register("gold_coin", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
     public static final RegistryObject<Item> NETHERITE_COIN = ITEMS.register("netherite_coin", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
 
     //Food Items
     public static final RegistryObject<Item> MEAT_SKEWER = ITEMS.register("meat_skewer", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_FOOD).food(FoodInit.MEAT_SKEWER)));
@@ -29,4 +30,6 @@ public class ItemInit {
 
     //BlockItems
     public static final RegistryObject<BlockItem> INGOT_BLOCK = ITEMS.register("ingot_block", () -> new BlockItem(BlockInit.INGOT_BLOCK.get(), new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
+    public static final RegistryObject<BlockItem> TREASURE = ITEMS.register("treasure", () -> new BlockItem(BlockInit.TREASURE.get(), new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
+    public static final RegistryObject<BlockItem> TREASURE_BLOCK = ITEMS.register("treasure_block", () -> new BlockItem(BlockInit.TREASURE_BLOCK.get(), new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
 }

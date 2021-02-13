@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "endless_journey:block/treasure_height2"
+    },
+    "layers=2": {
+      "model": "endless_journey:block/treasure_height4"
+    },
+    "layers=3": {
+      "model": "endless_journey:block/treasure_height6"
+    },
+    "layers=4": {
+      "model": "endless_journey:block/treasure_height8"
+    },
+    "layers=5": {
+      "model": "endless_journey:block/treasure_height10"
+    },
+    "layers=6": {
+      "model": "endless_journey:block/treasure_height12"
+    },
+    "layers=7": {
+      "model": "endless_journey:block/treasure_height14"
+    },
+    "layers=8": {
+      "model": "endless_journey:block/treasure_block"
+    }
+  }
+}
