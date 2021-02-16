@@ -27,6 +27,8 @@ public class ItemInit {
     public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_FOOD).food(FoodInit.CHEESE)));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_FOOD).food(FoodInit.TOMATO)));
     public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds", () -> new BlockNamedItem(BlockInit.TOMATO_BLOCK.get(), new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));
+    public static final RegistryObject<Item> BLUE_BERRIES = ITEMS.register("blue_berries", () -> new BlockNamedItem(BlockInit.BLUE_BERRY_BUSH.get(), new Item.Properties().group(EndlessJourney.JOURNEY_FOOD).food(FoodInit.BLUE_BERRIES)));
+    public static final RegistryObject<Item> BLUE_BERRY_PIE = ITEMS.register("blue_berry_pie", () -> new Item(new Item.Properties().group(EndlessJourney.JOURNEY_FOOD).food(FoodInit.BLUE_BERRY_PIE)));
 
     //BlockItems
     public static final RegistryObject<BlockItem> INGOT_BLOCK = ITEMS.register("ingot_block", () -> new BlockItem(BlockInit.INGOT_BLOCK.get(), new Item.Properties().group(EndlessJourney.JOURNEY_GROUP)));

@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "endless_journey:blue_berries"
+    }
+  ],
+  "result": {
+    "item": "endless_journey:blue_berry_pie"
+  }
+}

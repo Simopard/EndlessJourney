@@ -4,15 +4,19 @@
   "item.endless_journey.gold_coin": "Gold Coin",
   "item.endless_journey.netherite_coin": "Netherite Coin",
   "item.endless_journey.netherite_nugget": "Netherite Nugget",
+  "item.endless_journey.long_bow": "Long Bow",
 
   "item.endless_journey.tomato": "Tomato",
   "item.endless_journey.tomato_seeds": "Tomato Seeds",
   "item.endless_journey.meat_skewer": "Meat Skewer",
   "item.endless_journey.cheese": "Cheese",
+  "item.endless_journey.blue_berries": "Blue Berries",
+  "item.endless_journey.blue_berry_pie": "Blue Berry Pie",
 
   "block.endless_journey.ingot_block": "Ingot Block",
   "block.endless_journey.treasure": "Treasure",
   "block.endless_journey.treasure_block": "Treasure Block",
+  "block.endless_journey.blue_berry_bush": "Blue Berry Bush",
 
   "itemGroup.journeytab": "Journey Tab",
   "itemGroup.journeyfoodtab": "Journey Food"

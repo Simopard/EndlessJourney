@@ -16,5 +16,6 @@ public class ClientUtils {
     public static void clientSetup(FMLClientSetupEvent event) {
 
         RenderTypeLookup.setRenderLayer(BlockInit.TOMATO_BLOCK.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(BlockInit.BLUE_BERRY_BUSH.get(), RenderType.getCutout());
     }
 }

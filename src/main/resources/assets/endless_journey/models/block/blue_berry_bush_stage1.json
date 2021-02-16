@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "endless_journey:blocks/blue_berry_bush_stage1"
+  }
+}
